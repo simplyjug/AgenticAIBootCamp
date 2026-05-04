@@ -78,7 +78,7 @@ This bootcamp is structured around real deliverables and portfolio stories. By t
 | [**docs/INTERVIEW_COMPANION.md**](docs/INTERVIEW_COMPANION.md) | Oral exam structure, system design skeletons, rapid-fire |
 | [**docs/CAREER_PORTFOLIO.md**](docs/CAREER_PORTFOLIO.md) | How to **fork**, extend, and present this as *your* portfolio |
 | [**CURRICULUM.md**](CURRICULUM.md) | 14-week outline (calendar-style) |
-| [**docs/VIDEO_RESOURCES.md**](docs/VIDEO_RESOURCES.md) | Curated YouTube + official docs |
+| [**docs/KNOWLEDGE_BASE.md**](docs/KNOWLEDGE_BASE.md) | Quick reference for key concepts, FAQs, and terminology |
 | [**GITHUB_PUSH.md**](GITHUB_PUSH.md) | **Publish to GitHub** (auth + first push) |
 
 ---
