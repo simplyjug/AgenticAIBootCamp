@@ -44,6 +44,7 @@ This bootcamp is a **structured path** plus **deep playbooks** so you can refres
 
 | Document | Purpose |
 |----------|---------|
+| [**docs/DOCUMENTATION_INDEX.md**](docs/DOCUMENTATION_INDEX.md) | **Hub** — every major doc linked in one place |
 | [**START_HERE.md**](START_HERE.md) | Environment, workflow, commands |
 | [**docs/AI_ENGINEERING_PLAYBOOK.md**](docs/AI_ENGINEERING_PLAYBOOK.md) | **Dense** end-to-end concepts + failure taxonomies + question bank |
 | [**docs/AGENTIC_AI_ENGINEERING.md**](docs/AGENTIC_AI_ENGINEERING.md) | Tool design, loops, multi-agent, observability, **patterns** |
@@ -51,6 +52,7 @@ This bootcamp is a **structured path** plus **deep playbooks** so you can refres
 | [**docs/CAREER_PORTFOLIO.md**](docs/CAREER_PORTFOLIO.md) | How to **fork**, extend, and present this as *your* portfolio |
 | [**CURRICULUM.md**](CURRICULUM.md) | 14-week outline (calendar-style) |
 | [**docs/VIDEO_RESOURCES.md**](docs/VIDEO_RESOURCES.md) | Curated YouTube + official docs |
+| [**GITHUB_PUSH.md**](GITHUB_PUSH.md) | **Publish to GitHub** (auth + first push) |
 
 ---
 
