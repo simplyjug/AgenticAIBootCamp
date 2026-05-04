@@ -1,9 +1,22 @@
 # Complete 14-Week Curriculum Outline
 
-## Advanced AI Engineering & RAG Systems Bootcamp
-(Including Conversational Chatbot, Agentic AI & Multi-Agent Systems)
+## Generative AI & Agentic AI Engineering Bootcamp
+(Including Document Processing, RAG, Conversational Chatbots, Agentic Patterns & Multi-Agent Systems)
 
 > **Interview depth track:** read [**docs/AI_ENGINEERING_PLAYBOOK.md**](docs/AI_ENGINEERING_PLAYBOOK.md) alongside this outline, then [**docs/AGENTIC_AI_ENGINEERING.md**](docs/AGENTIC_AI_ENGINEERING.md) before Weeks 12–13. [**docs/INTERVIEW_COMPANION.md**](docs/INTERVIEW_COMPANION.md) is your oral-exam cram sheet.
+
+---
+
+## Week 0: Foundations of Generative AI
+
+| Day | Topic | Key Deliverables |
+|-----|-------|------------------|
+| **Day 1** | LLM Basics & Prompt Engineering | API calls, zero-shot/few-shot, temperature tuning |
+| **Day 2** | Fine-Tuning LLMs | LoRA, data prep, evaluation metrics |
+| **Day 3** | Safety & Alignment | RLHF, guardrails, bias detection |
+| **Day 4** | Model Deployment & Optimization | vLLM, quantization, cost monitoring |
+| **Day 5** | Multimodal Generative Models | DALL-E, CLIP, image generation |
+| **Day 6** | Ethics & Responsible AI | Fairness, transparency, regulations |
 
 ---
 

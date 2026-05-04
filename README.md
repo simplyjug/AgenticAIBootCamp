@@ -1,8 +1,8 @@
 <div align="center">
 
-# Agentic AI & RAG Systems Bootcamp
+# Generative AI & Agentic AI Bootcamp
 
-### A serious, end-to-end curriculum for **AI engineers** who ship — ingestion, embeddings, vector search, RAG, evaluation, production, **agentic patterns**, and multi-agent systems.
+### A serious, end-to-end curriculum for **AI engineers** who ship — ingestion, embeddings, vector search, RAG, evaluation, production, **generative models**, **agentic patterns**, and multi-agent systems.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
@@ -10,7 +10,7 @@
 
 **Clone → study → build → talk about it in interviews** (OpenAI, Anthropic, NVIDIA-class applied roles).
 
-[Start here](START_HERE.md) · [AI Engineering Playbook](docs/AI_ENGINEERING_PLAYBOOK.md) · [Agentic AI Engineering](docs/AGENTIC_AI_ENGINEERING.md) · [Interview companion](docs/INTERVIEW_COMPANION.md) · [Career & portfolio](docs/CAREER_PORTFOLIO.md) · [Video resources](docs/VIDEO_RESOURCES.md)
+[Start here](START_HERE.md) · [AI Engineering Playbook](docs/AI_ENGINEERING_PLAYBOOK.md) · [Generative AI Engineering](docs/GENERATIVE_AI_ENGINEERING.md) · [Agentic AI Engineering](docs/AGENTIC_AI_ENGINEERING.md) · [Interview companion](docs/INTERVIEW_COMPANION.md) · [Career & portfolio](docs/CAREER_PORTFOLIO.md) · [Video resources](docs/VIDEO_RESOURCES.md)
 
 </div>
 
@@ -47,6 +47,7 @@ This bootcamp is a **structured path** plus **deep playbooks** so you can refres
 | [**docs/DOCUMENTATION_INDEX.md**](docs/DOCUMENTATION_INDEX.md) | **Hub** — every major doc linked in one place |
 | [**START_HERE.md**](START_HERE.md) | Environment, workflow, commands |
 | [**docs/AI_ENGINEERING_PLAYBOOK.md**](docs/AI_ENGINEERING_PLAYBOOK.md) | **Dense** end-to-end concepts + failure taxonomies + question bank |
+| [**docs/GENERATIVE_AI_ENGINEERING.md**](docs/GENERATIVE_AI_ENGINEERING.md) | Prompt engineering, fine-tuning, safety, deployment |
 | [**docs/AGENTIC_AI_ENGINEERING.md**](docs/AGENTIC_AI_ENGINEERING.md) | Tool design, loops, multi-agent, observability, **patterns** |
 | [**docs/INTERVIEW_COMPANION.md**](docs/INTERVIEW_COMPANION.md) | Oral exam structure, system design skeletons, rapid-fire |
 | [**docs/CAREER_PORTFOLIO.md**](docs/CAREER_PORTFOLIO.md) | How to **fork**, extend, and present this as *your* portfolio |
@@ -137,11 +138,16 @@ See [**DEPLOY.md**](DEPLOY.md) for **GitHub Pages** and [**GITHUB_PUSH.md**](GIT
 
 ---
 
-## Contributing & community
+## Certification
 
-See [**CONTRIBUTING.md**](CONTRIBUTING.md). Issues and PRs that add **evals**, **load tests**, or **clearer failure-mode docs** are especially welcome.
+Complete the bootcamp and earn a **Generative AI & Agentic AI Engineer Certification** from [AIDeeva.com](https://aideeva.com). 
 
-If this repo helped you, a **star** helps other learners find it — and signals quality to hiring managers skimming your profile.
+To get certified:
+1. Finish all weeks and labs.
+2. Submit your completion details via [this form](https://forms.gle/example) (replace with actual form link).
+3. Receive your certificate via email.
+
+---
 
 ---
 
