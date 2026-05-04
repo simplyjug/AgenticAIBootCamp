@@ -1,25 +1,134 @@
-# Day 4: Metadata enrichment & taxonomy
+# Day 4: Metadata Enrichment & Taxonomy
 
-## Learning objectives
+## Learning Objectives
 
-- Build a **controlled vocabulary** for tags (no free-text chaos until necessary).
-- Connect taxonomy nodes to **downstream filters** in retrieval (Week 10 preview).
+1. **Build** a controlled vocabulary for consistent tagging
+2. **Enrich** documents with metadata for better retrieval
+3. **Design** taxonomy structure for scalability
+4. **Connect** tags to downstream filters
 
-## Hands-on
+---
 
-1. Draft `taxonomy.yaml` with domains relevant to your corpus (≥15 leaf tags).
-2. Label **50** docs with ≥1 tag each (spreadsheet export CSV acceptable).
-3. Compute tag **frequency** — merge ultra-rare tags into “other” bucket policy.
+## 1. Theory
 
-## Concepts
+### What is Metadata and Taxonomy?
 
-- **Stable IDs:** never rename leaf IDs in place — deprecate + map instead.
+Metadata is extra information about your data – like tags, dates, authors. Taxonomy is a organized system of categories.
 
-## Done when
+**For beginners:** Think of a library book. Metadata is title, author, publish date. Taxonomy is the Dewey Decimal system organizing books by subject.
 
-- [ ] Taxonomy file + README on governance (who approves new tags).
-- [ ] Example query using tags + future vector retrieval narrative.
+### 1.1 Why Metadata Matters
+
+Without metadata, searching is hard. With it, you can filter "AI articles from 2023" easily.
+
+**Benefits:**
+- Faster search
+- Better AI training (models learn from context)
+- Easier management
+
+### 1.2 Controlled Vocabulary
+
+Don't let anyone add any tag. Use a fixed list to avoid chaos.
+
+**Example taxonomy:**
+- Technology > AI > Machine Learning > Supervised Learning
+
+**Rules:**
+- Hierarchical (parent-child)
+- No duplicates
+- Stable IDs (don't change names)
+
+### 1.3 Enrichment Process
+
+Add metadata automatically or manually.
+
+**Automatic:** Extract from text (e.g., dates, entities)
+**Manual:** Human labeling for quality
+
+### 1.4 Downstream Use
+
+Tags help in retrieval. In Week 10, you'll use them to filter search results.
+
+---
+
+## 2. Practical: Building Taxonomy
+
+### Setup
+Use YAML for taxonomy: `pip install pyyaml`
+
+### Hands-on Exercises
+1. Create a taxonomy file.
+2. Tag sample documents.
+3. Query with tags.
+
+## Code Examples
+
+### Taxonomy Structure
+```yaml
+# taxonomy.yaml
+domains:
+  technology:
+    ai:
+      - machine_learning
+      - deep_learning
+    web:
+      - frontend
+      - backend
+```
+
+### Loading and Using
+```python
+import yaml
+
+with open('taxonomy.yaml') as f:
+    tax = yaml.safe_load(f)
+
+# Check if tag exists
+def validate_tag(tag):
+    # Simple check
+    return tag in ['machine_learning', 'deep_learning']  # etc.
+
+print(validate_tag('machine_learning'))  # True
+```
+
+### Enriching Documents
+```python
+documents = [
+    {"text": "Neural networks are cool", "tags": ["deep_learning"]},
+    {"text": "HTML and CSS", "tags": ["frontend"]}
+]
+
+# Add metadata
+for doc in documents:
+    doc['word_count'] = len(doc['text'].split())
+    doc['has_ai'] = 'ai' in doc.get('tags', [])
+
+print(documents)
+```
+
+### Filtering
+```python
+ai_docs = [d for d in documents if 'deep_learning' in d.get('tags', [])]
+print(f"AI docs: {len(ai_docs)}")
+```
+
+---
+
+## 3. Homework
+
+Build taxonomy for a news dataset and enrich 100 articles.
+
+---
+
+## 4. Interview Questions
+
+- How to handle taxonomy evolution without breaking old data?
+- Design metadata for multi-language documents.
 
 ## Resources
+- [SKOS Primer](https://www.w3.org/TR/skos-primer/)
+- [Taxonomy Design Guide](https://www.ontotext.com/knowledgehub/fundamentals/taxonomy-ontology/)
 
-- [SKOS primer](https://www.w3.org/TR/skos-primer/) — skim for enterprise taxonomy mindset
+## Done When
+- [ ] You can explain why controlled vocabulary matters.
+- [ ] You've created a simple taxonomy and tagged documents.
