@@ -13,6 +13,17 @@
 1. **[docs/VIDEO_RESOURCES.md](../../docs/VIDEO_RESOURCES.md#week-10)**.
 2. Implement small scripts under `labs/week10/` (create if missing — see day guides).
 
+## Reading-only path
+
+This week is about metadata enrichment and schema-driven retrieval. Reading-only learners should focus on the data model and how metadata supports filters and ranking.
+
+- Learn how NER and keywords improve document understanding.
+- Understand how taxonomy and topic assignment enable better search UX.
+- Review schema design for downstream filter and retrieval compatibility.
+- Think through enrichment pipelines, idempotency, and metadata freshness.
+
+Write down one schema design, one enrichment pipeline flow, and one filtered retrieval example.
+
 ## Day-by-day
 
 | Day | Topic | Guide |
@@ -33,3 +44,13 @@
 - [ ] Schema diagram (Pydantic / JSON Schema acceptable).
 - [ ] One enrichment job idempotent by document ID.
 - [ ] Example query using **metadata filter** + vector search together.
+
+## Portfolio path
+
+This week’s portfolio artifact should show how metadata enriches search:
+
+- One **metadata schema diagram** with field purpose.
+- One **enrichment pipeline note** including idempotency.
+- One **interview story** about using metadata filters with vector search.
+
+If you are reading only, write a summary of how metadata improves retrieval and supports filters.

@@ -15,6 +15,19 @@
 2. Work Day 1 → Day 6.
 3. Run labs in `labs/week0/`.
 
+## Reading-only path
+
+If you are reading only, this week is about understanding prompt engineering, model adaptation, safety, deployment, multimodal generation, and responsible AI. Focus on:
+
+- Day 1: prompt structure and examples vs instructions.
+- Day 2: when to use fine-tuning/LoRA and how to validate datasets.
+- Day 3: guardrail layers and human fallback design.
+- Day 4: serving models, latency/cost tradeoffs, and monitoring needs.
+- Day 5: how text and image generation differ and when to use each.
+- Day 6: ethics, bias review, and compliance checkpoints.
+
+Read each guide sequentially, summarize the core tradeoffs, and note the failure modes.
+
 ## Day-by-day
 
 | Day | Topic | Guide |
@@ -29,5 +42,15 @@
 ## Done when
 
 - [ ] Completed all days and labs.
-- [ ] Can explain tradeoffs in prompt vs fine-tune.</content>
+- [ ] Can explain tradeoffs in prompt vs fine-tune.
+
+## Portfolio path
+
+This week’s portfolio artifact should be a short deliverable that you can present to a recruiter or hiring manager:
+
+- One **architecture sketch** or process diagram.
+- One **tradeoff summary** that explains why the chosen design is right for the problem.
+- One **interview story**: what issue you solved, what failure mode you prevented, or what choice you made.
+
+If you are reading only, write a one-page note that captures the week’s core problem, a strong solution, and the business/user outcome.</content>
 <parameter name="filePath">c:\Users\jugal\OneDrive\Desktop\AgenticAIBootCamp\curriculum\week-00\README.md

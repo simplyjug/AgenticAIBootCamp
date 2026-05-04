@@ -14,6 +14,17 @@
 2. Bring up infra via [SETUP.md](../../SETUP.md) / docker-compose when applicable.
 3. Days **1–5** — capture screenshots or YAML snippets for your portfolio.
 
+## Reading-only path
+
+This week focuses on production-readiness for AI systems. Reading-only learners should understand observability, versioning, and safe rollout.
+
+- Learn what metrics are essential for LLM services and why.
+- Understand model/prompt versioning and deployment strategies.
+- Review Docker/Kubernetes basics as packaging and orchestration tools.
+- Think through cost, scaling, and feature flagging for release control.
+
+Take notes on one monitoring schema, one rollback plan, and one versioning workflow.
+
 ## Day-by-day
 
 | Day | Topic | Guide |
@@ -34,3 +45,13 @@
 - [ ] Dashboard or metric export showing generation latency & error codes.
 - [ ] Dockerfile builds (`docker build .`) or compose stack starts.
 - [ ] Written rollout plan for a **prompt change** (who approves, how to revert).
+
+## Portfolio path
+
+This week’s portfolio artifact should show your production engineering discipline:
+
+- One **observability diagram** for logs, metrics, and traces.
+- One **deployment/versioning note** with rollback strategy.
+- One **interview story** about a production incident or canary rollout.
+
+If you are reading only, write a summary of the monitoring and deployment strategy.

@@ -16,6 +16,17 @@
 3. Run tests touching Week 1: `pytest tests/week1/ -v` (if present) or the Week 1 pipeline command.
 4. Check the **Done when** list at the bottom.
 
+## Reading-only path
+
+This week is a document engineering deep dive, so reading-only learners should focus on the extraction patterns, metadata modeling, and ingestion failure modes. Key reader takeaways:
+
+- Understand the difference between text and scanned PDF extraction.
+- Learn how HTML crawling fits into data ingestion pipelines.
+- Grasp how image + text documents are represented for hybrid retrieval.
+- Know the tradeoffs between chunking for retrieval and pipeline quality checks.
+
+Read the day guides and write down one example pipeline for ingestion, one error case, and one quality control check.
+
 ## Week at a glance
 
 ```mermaid
@@ -52,6 +63,16 @@ graph LR
 - [ ] You produced structured output (JSON or DB rows) from at least one PDF and one HTML source.
 - [ ] You documented **failure modes** (empty extract, bad encoding, huge scans) and mitigations.
 - [ ] `pytest tests/week1/ -v` passes (or your pipeline runs end-to-end on `datasets/sample.pdf`).
+
+## Portfolio path
+
+This week’s portfolio artifact should be a short document or diagram you can share with recruiters:
+
+- One **ingestion architecture diagram** showing document flow and extractor decisions.
+- One **quality/failure-mode summary** for extraction and crawling.
+- One **interview story** about a tradeoff you would make between speed, cost, and accuracy.
+
+If you are reading only, write a note that captures the extraction pipeline, the main failure modes, and the mitigation strategy.
 
 ## Resources
 

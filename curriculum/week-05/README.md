@@ -14,6 +14,17 @@
 2. Start local vector DBs via [SETUP.md](../../SETUP.md) / `docker-compose` if available.
 3. Use `labs/week5/` exercises (stubs you can extend) and day guides.
 
+## Reading-only path
+
+This week explains vector databases and production index design. Reading-only learners should understand the characteristics of each store and how metadata interacts with search.
+
+- Learn the difference between FAISS, Milvus, Pinecone, and Weaviate.
+- Understand filterable retrieval, schema modeling, and index rebuild patterns.
+- Think through multi-tenant isolation, API keys, and RBAC boundaries.
+- Note how operational burdens change with cloud vs self-hosted DBs.
+
+Summarize one vector store decision, one filter design, and one rebuild/playbook strategy.
+
 ## Day-by-day
 
 | Day | Topic | Guide | Notes |
@@ -34,3 +45,13 @@
 - [ ] Diagram of your **target** production store (one page).
 - [ ] One load test or scripted batch insert with metrics captured.
 - [ ] Tenancy model written down (org → index/collection → API key).
+
+## Portfolio path
+
+This week’s portfolio artifact should be a production design note:
+
+- One **vector store architecture diagram** with store choice rationale.
+- One **load test or insertion plan** with observed metrics.
+- One **interview story** about choosing a vector database and handling tenant isolation.
+
+If you are reading only, write a note that contrasts the vector stores and explains the index/tenant model.

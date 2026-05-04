@@ -20,6 +20,17 @@
    ```
 3. Complete days **1–5** and extend `labs/week7/rag_service.py` where guided.
 
+## Reading-only path
+
+This week is the first RAG implementation phase. Reading-only learners should focus on retrieval grounding, hybrid search, and the agentic context for retrieval-based answers.
+
+- Learn the naive RAG pipeline and how hybrid retrieval improves relevance.
+- Understand multi-hop retrieval and when it is worth the added complexity.
+- Study tool loop architecture for agentic RAG.
+- Review reranking and context compression as quality / cost controls.
+
+Note one grounding strategy, one latency budget tradeoff, and one tool error handling pattern.
+
 ## Day-by-day
 
 | Day | Topic | Guide | Code |
@@ -40,3 +51,13 @@
 - [ ] `/query` (or equivalent) returns **answer + sources** from your index.
 - [ ] Written tradeoff: single-shot vs **multi-hop** for your domain.
 - [ ] Failure modes list (empty retrieval, duplicate chunks, tool errors).
+
+## Portfolio path
+
+This week’s portfolio artifact should illustrate your RAG architecture and decisions:
+
+- One **RAG system diagram** with retrieval, generation, and grounding flow.
+- One **tradeoff note** comparing single-shot and multi-hop strategies.
+- One **interview story** describing a retrieval failure mode and your mitigation.
+
+If you are reading only, write a note that explains the RAG pipeline and the source grounding approach.

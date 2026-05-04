@@ -17,6 +17,17 @@
    ```
 3. Days **1–5** — extend labs with Redis optional ([SETUP.md](../../SETUP.md)).
 
+## Reading-only path
+
+This week focuses on production-grade RAG and conversational behavior. Reading-only learners should understand error handling, session state, and cache strategy.
+
+- Study how a production RAG service is hardened for timeouts and schema validation.
+- Read the conversational bot design and how history influences answers.
+- Learn caching patterns and invalidation strategies for repeated queries.
+- Review failure modes and how to build a postmortem mindset.
+
+Write down one session model, one cache design, and one outage scenario.
+
 ## Day-by-day
 
 | Day | Topic | Guide | Code |
@@ -37,3 +48,13 @@
 - [ ] Chat endpoint works with **history** object (messages in/out).
 - [ ] Documented cache keys and invalidation strategy.
 - [ ] One postmortem-style note on a simulated outage (timeouts, empty retrieval).
+
+## Portfolio path
+
+This week’s portfolio artifact should show production readiness for conversational RAG:
+
+- One **chat architecture diagram** with session and history handling.
+- One **cache/invalidation summary** and why it matters.
+- One **interview story** about handling a failure mode or outage.
+
+If you are reading only, write a summary of the chat architecture and the key operational controls.

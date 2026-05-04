@@ -28,6 +28,19 @@ Most “LLM courses” stop at prompts. **Top AI engineering roles** expect you 
 
 This bootcamp is a **structured path** plus **deep playbooks** so you can refresh the entire stack before interviews and point recruiters at **real code** under `labs/`.
 
+## Built like a premium program
+
+This repository is organized like a paid bootcamp, but it is free and open source. The learning experience is equivalent to a high-value technical program priced around $3,000. You get:
+
+- A **14-week professional curriculum** with day-by-day outcome goals.
+- A parallel **reading-only track** for non-coders and interview preparation.
+- **Portfolio-worthy labs**: ingestion, embedding systems, vector search, RAG, evaluation, agents.
+- **Production thinking**: observability, cost, reliability, security, rollout.
+- **Career signals**: interview guides, failure-mode notes, ethical checkpoints.
+- **AIDeeva certification** support for learners who complete the stack.
+
+This is not a toy course — it is a real AI engineering training path for people targeting roles at Microsoft, Google, OpenAI, Anthropic, NVIDIA, AMD, and other leaders.
+
 ---
 
 ## Who this is for
@@ -37,6 +50,19 @@ This bootcamp is a **structured path** plus **deep playbooks** so you can refres
 - Builders preparing for **system design** + **coding** + **safety** loops at frontier labs  
 
 **Prerequisites:** strong Python, basic ML, HTTP/APIs, willingness to read docs and run Docker for some modules.
+
+---
+
+## What you build
+
+This bootcamp is structured around real deliverables and portfolio stories. By the end, learners can explain and demo:
+
+- a document ingestion pipeline for text + scanned PDFs and HTML content
+- a vector search stack with FAISS / hybrid retrieval and metadata filters
+- a RAG API and conversational assistant with source grounding
+- an evaluation suite for retrieval, faithfulness, and A/B-style metrics
+- agentic tooling patterns, function-call orchestration, and multi-agent coordination
+- production readiness artifacts: monitoring, versioning, rollback, and security
 
 ---
 
@@ -56,6 +82,15 @@ This bootcamp is a **structured path** plus **deep playbooks** so you can refres
 | [**GITHUB_PUSH.md**](GITHUB_PUSH.md) | **Publish to GitHub** (auth + first push) |
 
 ---
+
+## How to use this bootcamp
+
+This repository supports two learning modes:
+
+- **Reader mode** — follow the curriculum guides and docs, learn the architecture and tradeoffs without running every lab.
+- **Builder mode** — run the labs, build the code, and collect portfolio artifacts for real projects.
+
+For best results, start by reading the week overview, then the day guide, then the lab implementation. Capture one portfolio bullet per week.
 
 ## Quick start
 

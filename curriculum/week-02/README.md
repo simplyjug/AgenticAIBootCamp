@@ -15,6 +15,17 @@
 2. Days **1–6** below; labs live under `labs/week2/`.
 3. Run `python labs/week2/day01_data_sourcing.py` (inspect `--help` if added) and iterate.
 
+## Reading-only path
+
+This week teaches data curation and governance. Reading-only learners should focus on pipeline architecture, duplicate detection, and quality controls.
+
+- Understand sourcing patterns with retries, batching, and rate limits.
+- Compare dedup methods: raw hash, SimHash/MinHash, and embedding similarity.
+- Learn how metadata taxonomies improve retrieval and search quality.
+- Read the governance section as your operational checklist for production data.
+
+Summarize one clean data pipeline, one labeling approach, and one audit requirement.
+
 ## Day-by-day
 
 | Day | Topic | Guide | Lab |
@@ -37,3 +48,13 @@
 - [ ] Three duplicate-detection strategies compared (precision/recall tradeoff in words).
 - [ ] One enrichment pipeline diagram (inputs → stores → consumers).
 - [ ] Governance section lists owners, PII handling, and rollback for bad batches.
+
+## Portfolio path
+
+This week’s portfolio artifact should be a process note that demonstrates data engineering discipline:
+
+- One **data sourcing / dedup architecture** diagram.
+- One **governance checklist** for lineage, PII, and rollback.
+- One **interview story** describing how you decide between manual labels and weak supervision.
+
+If you are reading only, write a summary of the pipeline, the dedup approach, and the governance controls.

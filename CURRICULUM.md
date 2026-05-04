@@ -5,6 +5,15 @@
 
 > **Interview depth track:** read [**docs/AI_ENGINEERING_PLAYBOOK.md**](docs/AI_ENGINEERING_PLAYBOOK.md) alongside this outline, then [**docs/AGENTIC_AI_ENGINEERING.md**](docs/AGENTIC_AI_ENGINEERING.md) before Weeks 12–13. [**docs/INTERVIEW_COMPANION.md**](docs/INTERVIEW_COMPANION.md) is your oral-exam cram sheet.
 
+This curriculum is designed as a professional training program rather than a casual tutorial. Each week has:
+
+- explicit outcomes,
+- clear deliverables,
+- portfolio-facing artifacts,
+- interview and production notes.
+
+Use this as a self-paced professional bootcamp: read the guide, execute the lab, and capture one story per week.
+
 ---
 
 ## Week 0: Foundations of Generative AI

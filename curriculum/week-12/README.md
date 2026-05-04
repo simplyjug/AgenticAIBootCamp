@@ -14,6 +14,17 @@
 2. **[docs/VIDEO_RESOURCES.md](../../docs/VIDEO_RESOURCES.md#week-12)** for video pointers.
 3. Lab entrypoint: `labs/week12/agentic_tools.py` — follow days **1–5** to extend patterns.
 
+## Reading-only path
+
+This week is about building safe tool-using agents. Reading-only learners should focus on architecture, planning, and security.
+
+- Learn tool schemas and how agents decide what tools to call.
+- Compare agent planning patterns such as ReAct and plan-and-execute.
+- Understand guardrail layers and how to prevent injection/exfiltration.
+- Study red-teaming as a discipline for agent safety.
+
+Write down one tool design, one planning pattern, and one threat mitigation.
+
 ## Day-by-day
 
 | Day | Topic | Guide | Lab |
@@ -34,3 +45,13 @@
 - [ ] Agent that calls **at least two tools** with explicit schemas.
 - [ ] List of 10 **adversarial** inputs you tested.
 - [ ] One-page **threat model** (assets, adversaries, mitigations).
+
+## Portfolio path
+
+This week’s portfolio artifact should show your agent design and safety thinking:
+
+- One **tool / schema diagram** for the agent’s capabilities.
+- One **red-team summary** with adversarial inputs and mitigations.
+- One **interview story** about how you secured the agent against injection or data leakage.
+
+If you are reading only, write a summary of the agent architecture and the applied guardrails.

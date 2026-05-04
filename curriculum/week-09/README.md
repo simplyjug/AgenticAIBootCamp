@@ -13,6 +13,17 @@
 1. **[docs/VIDEO_RESOURCES.md](../../docs/VIDEO_RESOURCES.md#week-9)**.
 2. Lab: `labs/week9/rag_evaluation.py` — follow day guides to extend metrics.
 
+## Reading-only path
+
+This week teaches evaluation of RAG systems. Reading-only learners should focus on the metrics, judge limitations, and experiment design.
+
+- Learn retrieval metrics and why they matter for search quality.
+- Understand faithfulness scoring and the limits of automated judges.
+- Study human evaluation and A/B design as the gold standard.
+- Think through how to version and reuse evaluation datasets.
+
+Summarize one metric comparison, one judge limitation, and one experiment plan.
+
 ## Day-by-day
 
 | Day | Topic | Guide | Lab |
@@ -33,3 +44,13 @@
 - [ ] Small **golden set** (≥50 queries) checked in or documented location.
 - [ ] Table comparing two retrieval configs on the same set.
 - [ ] Short ethics note on automated judges + PII.
+
+## Portfolio path
+
+This week’s portfolio artifact should show your evaluation discipline:
+
+- One **evaluation summary** with metrics and dataset design.
+- One **comparative table** of retrieval configs.
+- One **interview story** about the ethical or PII tradeoff in automatic judging.
+
+If you are reading only, write a summary of the evaluation workflow and the limitations of automated metrics.
