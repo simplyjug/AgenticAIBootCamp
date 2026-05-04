@@ -1,0 +1,1 @@
+--8<-- "../docs/AI_ENGINEERING_PLAYBOOK.md"

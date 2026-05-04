@@ -1,0 +1,14 @@
+# Development dependencies
+-r requirements.txt
+
+pytest>=7.4.0
+pytest-cov>=4.1.0
+ruff>=0.1.0
+mypy>=1.8.0
+black>=24.0.0
+isort>=5.13.0
+
+# Optional: documentation site (see DEPLOY.md)
+# mkdocs>=1.6.0
+# mkdocs-material>=9.5.0
+# pymdown-extensions>=10.0.0

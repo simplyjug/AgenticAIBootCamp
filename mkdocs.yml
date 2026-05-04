@@ -1,0 +1,67 @@
+site_name: Agentic AI Bootcamp
+site_description: 14-week self-service AI engineering & RAG curriculum
+site_url: https://YOUR_GITHUB_USERNAME.github.io/AgenticAIBootCamp/
+repo_url: https://github.com/YOUR_GITHUB_USERNAME/AgenticAIBootCamp
+edit_uri: edit/main/
+
+docs_dir: handbook
+site_dir: site
+
+theme:
+  name: material
+  palette:
+    - scheme: default
+      primary: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.expand
+    - content.code.copy
+
+nav:
+  - Home: index.md
+  - Start here: start-here.md
+  - AI engineering playbook: playbook.md
+  - Agentic AI engineering: agentic.md
+  - Interview companion: interview.md
+  - Career & portfolio: career.md
+  - Documentation index: documentation-index.md
+  - Video resources: video-resources.md
+  - Setup: setup.md
+  - Deploy on GitHub: deploy.md
+  - Push to GitHub: github-push.md
+  - Full curriculum outline: curriculum-outline.md
+  - Weeks:
+      - "Week 1": weeks/week-01.md
+      - "Week 2": weeks/week-02.md
+      - "Week 3": weeks/week-03.md
+      - "Week 4": weeks/week-04.md
+      - "Week 5": weeks/week-05.md
+      - "Week 6": weeks/week-06.md
+      - "Week 7": weeks/week-07.md
+      - "Week 8": weeks/week-08.md
+      - "Week 9": weeks/week-09.md
+      - "Week 10": weeks/week-10.md
+      - "Week 11": weeks/week-11.md
+      - "Week 12": weeks/week-12.md
+      - "Week 13": weeks/week-13.md
+      - "Week 14": weeks/week-14.md
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.snippets:
+      base_path: [".", ".."]
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - tables
+  - admonition
+  - toc:
+      permalink: true

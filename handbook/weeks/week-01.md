@@ -1,0 +1,1 @@
+﻿--8<-- "../../curriculum/week-01/README.md"
